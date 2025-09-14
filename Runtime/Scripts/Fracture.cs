@@ -19,6 +19,11 @@ public class Fracture : MonoBehaviour
     public int currentRefractureCount = 0;
 
     /// <summary>
+    /// Get fragmentRoot object
+    /// </summary>
+    public GameObject FragmentRoot { get => fragmentRoot; }
+
+    /// <summary>
     /// Collector object that stores the produced fragments
     /// </summary>
     private GameObject fragmentRoot;
